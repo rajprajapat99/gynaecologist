@@ -1,6 +1,6 @@
 import React from 'react';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "../node_modules/slick-carousel/slick/slick.css";
+import "../node_modules/slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import "./OurServices.css";
 import Google from './Image/google-logo.svg';
@@ -10,7 +10,6 @@ import COMPLEXDELIVERY from './Image/COMPLEX DELIVERY.jpeg'
 import HYSTEROSCOPICSURGERIES from './Image/HYSTEROSCOPIC SURGERIES.jpeg'
 import CANCERSCREENING from './Image/CANCER SCREENING.jpg'
 import PCOS from './Image/PCOS.jpeg'
-// import MATERNITY from './Image/MATERNITY.jpeg'
 import GYNECOLOGIST from './Image/GYNECOLOGIST.jpeg'
 import LAPAROSCOPIC from './Image/LAPAROSCOPIC SURGEON.webp'
 import FIBROIDS from './Image/FIBROIDS.webp'
