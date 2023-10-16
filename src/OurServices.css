@@ -1,0 +1,147 @@
+.service_section {
+  background: linear-gradient(to bottom, #755b9b, #e6e0f6);
+}
+
+.service_head {
+  text-align: center;
+  margin: 50px 0;
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+.card_center {
+  text-align: center;
+  height: 100%;
+  background-color: white;
+  color: black;
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
+.card_center:hover {
+  background-color: #755b9b;
+  color: white;
+}
+.ser_ca_img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #755b9b;
+}
+.google_card {
+  width: 100px;
+  height: 50px;
+}
+.card_star {
+  color: #f6bb06;
+  font-size: 35px;
+}
+.excel {
+  font-weight: 400;
+}
+.review_text {
+  font-size: 25px;
+  color: #555555;
+}
+.review_card {
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+.reviewer_name{
+  padding: 20px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.reviewer_card{
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.reviewer_card_in{
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+ 
+}
+.scrollable_div{
+  overflow: hidden;
+  position: relative;
+}
+.scrollable-content {
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  color: #555555;
+}
+
+#our-services{
+  padding-top: 20px;
+}
+
+.reviewbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit-btn{
+  width: 150px;
+  margin-left: 20px;
+  border-radius: 30px;
+  background-color: #755b9b;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+.submit-btn:hover{
+  text-decoration: underline;
+  transform: translateY(-5px);
+}
+.associat_img{
+  width: 200px;
+  height: 140px;
+  border: 1px solid #755b9b;
+  padding: 10px;
+  background-color: #fff;
+  transition: transform 0.9s;
+}
+.associ_card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  
+}
+.associat_img:hover {
+  transform: scale(1.05); 
+  border: none;
+  border-bottom: 1px solid #755b9b;
+}
+
+.our_association{
+  background-color: #222222;
+  margin-top: 50px;
+  
+}
+.associ_all_blossom{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blossom_png{
+  width: 300px;
+  height: 100px;
+}
+.associat_head{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.associ_all_card{
+  display: flex;
+  justify-content: space-evenly;
+}
