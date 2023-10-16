@@ -44,7 +44,7 @@ function AppointForm() {
   });
 
   return (
-    <form ref={form} onSubmit={formik.handleSubmit}>
+    <form className='appointment_form' ref={form} onSubmit={formik.handleSubmit}>
       <div className="col-12">
         <label className="label_font" htmlFor="name">
           Name*

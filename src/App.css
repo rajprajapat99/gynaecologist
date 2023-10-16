@@ -54,286 +54,334 @@
          }
      }
 
-      
-      /* BookAppointment css */
+
+     /* BookAppointment css */
 
 
-      .set_bgc{
-        background-color: #755b9b;
+     .set_bgc {
+         background-color: #755b9b;
+     }
+
+     .set_bgi {
+         background-image: url(./Image/bg.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+
+     .apt_book {
+         height: 5rem;
+     }
+
+     .bg_white {
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+         background-color: #fff;
+         padding: 20px;
+         border-radius: 20px;
+     }
+
+     .apt_book_text {
+         color: #fff;
+         font-size: 25px;
+         line-height: 1.2;
+         font-weight: 400;
+         text-align: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .submit_app_btn {
+         margin-left: 10px;
+     }
+
+     .telephone {
+         padding-left: 20px;
+     }
+
+     .check_border_app {
+         border: 1px solid #755b9b;
+         width: 70%;
+         height: 70px;
+         margin-left: 10px;
+         border-radius: 8px;
+         display: flex;
+     }
+
+     .recaptcha {
+         margin-left: 10px;
+     }
+
+     .click_mob_call {
+         color: #fff;
+         text-decoration: none;
+     }
+     .book_app_row {
+width: 95%;
     }
-    .set_bgi{
-        background-image: url(./Image/bg.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .apt_book{
-        height: 5rem;
-    }
-    .bg_white{
-        background-color: #fff;
-        width: 95%;
-        padding: 20px;
-        border-radius: 20px;
-    }
-    .apt_book_text{
-        color: #fff;
-        font-size: 25px;
-        line-height: 1.2;
-        font-weight: 400;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .submit_app_btn{
-        margin-left: 10px;
-    }
-    .telephone{
-        padding-left: 20px;
-    }
-    .check_border_app{
-        border: 1px solid #755b9b;
-        width: 70%;
-        height: 70px;
-        margin-left: 10px;
-        border-radius: 8px;
-        display: flex;
-    }
-    .recaptcha{
-        margin-left: 10px;
-    }
-    .click_mob_call{
-        color: #fff;
-        text-decoration: none;
-    }
+
+     @media screen and (max-width: 768px) {
+         .book_app_form {
+             margin-left: 20px;
+         }
+     }
+
+
+
+
+     /* About CSS */
+
+
+
+     .carousel_imag {
+         height: 65vh;
+     }
+
+     .carousel_cont {
+         padding: 0px;
+
+     }
+
+     .card_all {
+         margin: 20px;
+     }
+
+     .block {
+         display: block;
+         padding-bottom: 20px;
+     }
+
+     .input_area {
+         width: 90%;
+         margin-left: 10px;
+         border-radius: 8px;
+         border: 1px solid #755b9b;
+         height: 35px;
+         padding-left: 10px;
+     }
+
+     .input_area:focus {
+         outline: none;
+     }
+
+     .input_msg {
+         height: 60px;
+     }
+
+     .label_font {
+         font-size: 18px;
+         margin-left: 10px;
+         line-height: 27px;
+     }
+
+     .doctor_banner {
+         height: 80%;
+         width: 80%;
+         border-radius: 20px;
+
+     }
+
+     .appointment_section {
+         padding: 10px;
+         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+         margin-bottom: 50px;
+         width: 95%;
+         border-radius: 10px;
+         background-color: #fff;
+     }
+
+     .image_section {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .check_box {
+         height: 20px;
+         width: 20px;
+     }
+
+     .robot_text {
+         padding-left: 20px;
+     }
+
+     .check_border {
+         border: 1px solid #755b9b;
+         width: 70%;
+         height: 70px;
+         margin-left: 20px;
+         border-radius: 8px;
+         display: flex;
+     }
+
+     .about_bold {
+         font-weight: bold;
+     }
+
+     .a_tag {
+         font-size: 8px;
+         text-decoration: none;
+         color: black;
+     }
+
+     .recaptcha {
+         margin-left: 10px;
+     }
+
+     .content_left {
+         margin-left: auto;
+     }
+
+     .submit_button {
+         width: 150px;
+         padding: 10px 25px;
+         border-radius: 30px;
+         background-color: #755b9b;
+         color: #fff;
+         border: none;
+         margin-top: 20px;
+     }
+
+     .card_all {
+         padding-left: 30px;
+         padding-right: 30px;
+         margin-bottom: 20px;
+         margin-top: 20px;
+         justify-content: space-around;
+     }
+
+     .bg_gradient {
+         background: linear-gradient(to bottom, #755b9b, #8a71b1);
+
+     }
+
+     .top_icon {
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+
+     .speciality {
+         margin-bottom: 50px;
+     }
+
+     .cart_top_icon {
+         color: #755b9b;
+         font-size: x-large;
+     }
+
+     .card_all {
+         text-align: center;
+     }
+
+     .welcome_blue {
+         color: #755b9b;
+         text-align: center;
+         margin-top: 30px;
+         margin-bottom: 30px;
+
+     }
+
+     .wel_para {
+         font-size: 15px;
+         color: #555555;
+         line-height: 25px;
+         word-spacing: 1.2px;
+     }
+
+     .wel_subhead {
+         font-weight: 400;
+         margin-bottom: 20px;
+     }
+
+     .welcome_section {
+         margin-bottom: 50px;
+     }
+
+     .error {
+         color: red;
+         font-size: 12px;
+     }
+
+
+
+     /* Footer css   */
+
+
+
+     .foot_bgc {
+         background-color: #333333;
+         color: #fff;
+     }
+
+     .foot_head {
+         font-weight: 400;
+         margin-bottom: 20px;
+     }
+
+     .detail {
+         list-style-type: none;
+         font-size: 16px;
+         margin-bottom: 15px;
+     }
+
+     .jus_cont_btw {
+         justify-content: space-between;
+     }
+
+     .details {
+         margin-bottom: 5px;
+         list-style: none;
+     }
+
+     .foot_icon {
+         margin-right: 10px;
+     }
+
+     .add {
+         padding-left: 0px;
+     }
+
+     .design_bgc {
+         background-color: #755b9b;
+         height: 60px;
+         color: #fff;
+         text-align: center;
+         padding-top: 15px;
+     }
+
+     .our_link {
+         color: #fff;
+         text-decoration: none;
+         font-size: 14px;
+     }
+
+     .our_link:hover {
+         text-decoration: underline;
+     }
+
+     .our_time {}
+
+     .social_media {
+         display: flex;
+         padding-left: 10px;
+     }
+
+     .sm_icon {
+         list-style: none;
+         margin-right: 20px;
+         font-size: 20px;
+     }
+
+     .icon_colour {
+         color: #fff;
+     }
+
+     .add_link {
+         text-decoration: none;
+         color: #fff;
+     }
+
+     .mob_two {
+         padding-top: 15px;
+     }
     
-    @media screen and (max-width: 768px) {
-        .book_app_form{
-            margin-left: 20px;
-        }
-      }
-
-
-
-
-      /* About CSS */
-
-
-
-      .carousel_imag{
-        height: 300px;
-    }
-    .carousel_cont{
-        padding: 0px;
-        position: absolute;
-    
-    }
-    .block{
-        display: block;
-        padding-bottom: 20px;
-    }
-    .input_area{
-        width: 90%;
-        margin-left: 10px;
-        border-radius: 8px;
-        border: 1px solid #755b9b;
-        height: 35px;
-        padding-left: 10px;
-    }
-    .input_area:focus{
-        outline: none;
-    }
-    .input_msg{
-        height: 60px;
-    }
-    
-    .label_font{
-        font-size: 18px;
-        margin-left: 10px;
-        line-height: 27px;
-    }
-    .doctor_banner{
-        height: 80%;
-        width: 80%;
-        border-radius: 20px;
-       
-    }
-    .appointment_section {
-        padding: 10px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        margin-bottom: 50px;
-        width: 95%;
-        border-radius: 10px;
-        position: relative;
-        margin-top: 280px;
-        background-color: #fff;
-      }
-    .image_section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .check_box{
-        height: 20px;
-        width: 20px;
-    }
-    .robot_text{
-        padding-left: 20px;
-    }
-    .check_border{
-        border: 1px solid #755b9b;
-        width: 70%;
-        height: 70px;
-        margin-left: 20px;
-        border-radius: 8px;
-        display: flex;
-    }
-    .about_bold{
-        font-weight: bold;
-    }
-    
-    .a_tag{
-        font-size: 8px;
-        text-decoration: none;
-        color: black;
-    }
-    .recaptcha{
-        margin-left: 10px;
-    }
-    .content_left{
-        margin-left: auto;
-    }
-    .submit_button{
-        width: 150px;
-        padding: 10px 25px;
-        border-radius: 30px;
-        background-color: #755b9b;
-        color: #fff;
-        border: none;
-        margin-top: 20px;
-    }
-    .card_all{
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        justify-content: space-around;
-    }
-    .bg_gradient{
-        background: linear-gradient(to bottom, #755b9b, #8a71b1);
-    
-    }
-    .top_icon{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .speciality{
-        margin-bottom: 50px;
-    }
-    
-    .cart_top_icon{
-        color: #755b9b;
-        font-size: x-large;
-    }
-    .card_all{
-        text-align: center;
-    }
-    .welcome_blue{
-        color: #755b9b;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    
-    }
-    .wel_para{
-        font-size: 15px;
-        color: #555555;
-        line-height: 25px;
-        word-spacing: 1.2px;
-    }
-    .wel_subhead{
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
-    .welcome_section{
-        margin-bottom: 50px;
-    }
-    .error{
-        color: red;
-        font-size: 12px;
-    }
-
-
-
-    /* Footer css   */
-
-
-
-    .foot_bgc{
-        background-color: #333333;
-        color: #fff;
-    }
-    .foot_head{
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
-    .detail{
-        list-style-type: none;
-        font-size: 16px;
-        margin-bottom: 15px;
-    }
-    .jus_cont_btw{
-        justify-content: space-between;
-    }
-    .details{
-        margin-bottom: 5px;
-        list-style: none;
-    }
-    .foot_icon{
-        margin-right: 10px;
-    }
-    .add{
-        padding-left: 0px;
-    }
-    .design_bgc{
-        background-color: #755b9b;
-        height: 60px;
-        color: #fff;
-        text-align: center;
-        padding-top: 15px;
-    }
-    .our_link{
-        color: #fff;
-        text-decoration: none;
-        font-size: 14px;
-    }
-    .our_link:hover{
-        text-decoration: underline;
-    }
-    .our_time{
-        
-    }
-    .social_media{
-        display: flex;
-        padding-left: 10px;
-    }
-    .sm_icon{
-        list-style: none;
-        margin-right: 20px;
-        font-size: 20px;
-    }
-    .icon_colour{
-        color: #fff;
-    }
-    .add_link{
-        text-decoration: none;
-        color: #fff;
-    }
-    .foot_head_t{
-        padding-top: 15px;
-        
-    }
-    .mob_two{
-        padding-top: 15px;
-    }

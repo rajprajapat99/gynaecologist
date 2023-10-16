@@ -20,13 +20,13 @@ export default function Headbar() {
                         <span className='icon'> <i class="bi bi-calendar"></i> </span> <a href='#book-appointment' className='head_link'>Book Appointment</a>
                     </div>
                     <div className='col-md-4 col-12 headbar_link content_end'>
-                        <span className='icon'><i class="bi bi-telephone-fill"></i></span> <a href="tel:+919414000665" className='head_link'>+91-9414000665</a>
+                        <span className='icon'><i class="bi bi-telephone-fill"></i></span> <a href="tel:+919414000665" className='head_link'>+91-9928070006</a>
                     </div>
                 </div>
             </div>
             <Navbar expand="lg" className="bg-body-tertiary" style={{ position: 'sticky', top: '0', zIndex: '100' }}>
       <Container>
-        <Navbar.Brand href="#home"><h1 className='dr_name'>Dr Sunita Choudhary</h1></Navbar.Brand>
+        <Navbar.Brand href="#home"><h1 className='dr_name'>Dr. Sunita Choudhary</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav_item">

@@ -4,7 +4,7 @@
 
 .service_head {
   text-align: center;
-  margin: 50px 0;
+  margin: 40px 0;
   color: white;
   font-weight: 500;
   line-height: 1.2;
@@ -78,6 +78,7 @@
 
 #our-services{
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .reviewbtn{
@@ -121,7 +122,6 @@
 
 .our_association{
   background-color: #222222;
-  margin-top: 50px;
   
 }
 .associ_all_blossom{
@@ -145,3 +145,37 @@
   display: flex;
   justify-content: space-evenly;
 }
+.service-view-more-button{
+  border: none;
+  background-color: #fff;
+  color: blue;
+  margin-top: 5px;
+}
+
+
+
+/* Styling for the custom arrow buttons */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.next-arrow {
+  right: 0px;
+}
+
+.prev-arrow {
+  left: -100px;
+}
+
+.custom-arrow:hover {
+  color: #007BFF;
+}
+
