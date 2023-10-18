@@ -1,42 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import DrSunita from './Image/drSunita.jpeg';
-import ReCAPTCHA from 'react-google-recaptcha';
 import {
   MDBCarousel,
   MDBCarouselItem,
 } from 'mdb-react-ui-kit';
 import carousel1 from './Image/carousel1.jpg';
 import carousel2 from './Image/carousel2.jpg';
-import carousel3 from './Image/carousel3.jpg';
-import AppointForm from './AppointForm'
 function About() {
-  const [formData, setFormData] = useState({
-    name: '',
-    phoneNumber: '',
-    email: '',
-    message: '',
-    isNotRobot: false,
-  });
-  function onChange(value) {
-    console.log("Captcha value:", value);
-  }
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    const newValue = type === 'checkbox' ? checked : value;
-
-    setFormData({
-      ...formData,
-      [name]: newValue,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // You can handle form submission here, such as sending data to a server.
-    console.log(formData);
-  };
+  
 
   return (
     <>
@@ -56,26 +27,7 @@ function About() {
           />
           
         </MDBCarousel>
-      </div>
-      {/* <div className='container appointment_section'>
-        <div className='move_up'>
-          <div className='row'>
-            <div className='col-md-6 make_appointment'>
-              <div className='row'>
-                <div className='col-12'>
-                  <h2 className='form_heading mb-3'>Make An Appointment</h2>
-                </div>
-                <AppointForm />
-              </div>
-
-            </div>
-            <div className='col-md-6 image_section'>
-              <img className='doctor_banner' src={DrSunita} alt='doctor pic' />
-            </div>
-          </div>
-        </div>
-      </div> */}
-     
+      </div>  
       <div className='container-fluid' id='about-us'>
         <div className='container welcome_section'>
           <h2 className='welcome_blue'>WELCOME TO Dr. SUNITA CHOUDHARY</h2>
@@ -111,7 +63,7 @@ function About() {
             <div className='card_all'>
               <div className='card'>
                 <div className='top_icon'><i className="cart_top_icon bi bi-plus-square-fill"></i></div>
-                <h2 className='h_text'>100+</h2>
+                <h2 className='h_text'>10000+</h2>
                 <div className='speciality'>Successfully Treated</div>
               </div>
             </div>

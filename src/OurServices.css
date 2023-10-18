@@ -168,11 +168,11 @@
 }
 
 .next-arrow {
-  right: 0px;
+  right: -35px;
 }
 
 .prev-arrow {
-  left: -100px;
+  left: -35px;
 }
 
 .custom-arrow:hover {

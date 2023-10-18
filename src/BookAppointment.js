@@ -1,39 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css'
 import './App.css'
-import ReCAPTCHA from 'react-google-recaptcha';
+// import ReCAPTCHA from 'react-google-recaptcha';
 import AppointForm from './AppointForm'
 const BookAppointment = () => {
 
-  const [formData, setFormData] = useState({
-    name: '',
-    phoneNumber: '',
-    email: '',
-    message: '',
-    isNotRobot: false,
-  });
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    const newValue = type === 'checkbox' ? checked : value;
-
-    setFormData({
-      ...formData,
-      [name]: newValue,
-    });
-  };
-  function onChange(value) {
-    console.log("Captcha value:", value);
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // You can handle form submission here, such as sending data to a server.
-    console.log(formData);
-  };
   return (
     <>
-
       <div className='container-fluid set_bgc' id='book-appointment'>
         <div className='row apt_book'>
           <h2 className='apt_book_text'>Book An Appointment</h2>

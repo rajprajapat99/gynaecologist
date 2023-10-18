@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+import fb from './Image/fb icon.png'
+import insta from './Image/insta-icon.png'
 const Footer = () => {
   return (
     <>
@@ -20,8 +22,8 @@ const Footer = () => {
                             
                         </ul>
                         <ul className='social_media'>
-                            <li className='sm_icon'><a href='https://www.facebook.com/profile.php?id=100064993059276&mibextid=9R9pXO'><i class="icon_colour bi bi-facebook"></i></a></li>
-                            <li className='sm_icon'><a href='https://www.instagram.com/blossomwomenclinic/'><i class="icon_colour bi bi-instagram"></i></a></li>
+                            <li className='sm_icon'><a href='https://www.facebook.com/profile.php?id=100064993059276&mibextid=9R9pXO'><img className='footer_social_icon_fb' src={fb} alt='FACEBOOK' /></a></li>
+                            <li className='sm_icon'><a href='https://www.instagram.com/blossomwomenclinic/'><img className='footer_social_icon' src={insta} alt='INSTAGRAM' /></a></li>
                             {/* <li className='sm_icon'><a href='#'><i class="icon_colour bi bi-twitter"></i></a></li> */}
                         </ul>
                     </div>

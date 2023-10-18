@@ -226,7 +226,7 @@ function OurServices() {
                                     <img className='ser_ca_img' src={familyplaning} alt='FAMILY PLANING' />
                                 </div>
                                 <div className='card_text'>
-                                    <h6 className='card_text_b py-3'>FAMILY PLANING</h6>
+                                    <h6 className='card_text_b py-3'>FAMILY PLANNING</h6>
                                 </div>
                             </div>
                         </div>
@@ -330,12 +330,13 @@ function OurServices() {
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 </Slider>
                             </div>
                         </div>
                         <div class="row reviewbtn mt-5">
-                            <button target="_blank" onClick={openGoogleMaps} class="submit-btn"> See on Google</button>
-                            <button target="_blank" onClick={openGoogleReview} class="submit-btn"> Write a Review</button>
+                            <button target="_blank" onClick={openGoogleMaps} class="submit-btn mb-2"> See on Google</button>
+                            <button target="_blank" onClick={openGoogleReview} class="submit-btn mb-2"> Write a Review</button>
                         </div>
                     </div>
                 </div>

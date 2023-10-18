@@ -120,6 +120,19 @@
 width: 95%;
     }
 
+
+    .modal-content{
+       margin-top: 40%;
+    }
+    .form_modal_button{
+        background-color: #755b9b !important;
+        color: #fff;
+    }
+    .modal-footer{
+display: flex;
+justify-content: center !important;
+    }
+
      @media screen and (max-width: 768px) {
          .book_app_form {
              margin-left: 20px;
@@ -359,7 +372,7 @@ width: 95%;
          text-decoration: underline;
      }
 
-     .our_time {}
+    
 
      .social_media {
          display: flex;
@@ -372,8 +385,13 @@ width: 95%;
          font-size: 20px;
      }
 
-     .icon_colour {
-         color: #fff;
+     .footer_social_icon{
+        height: 35px;
+
+     }
+     .footer_social_icon_fb{
+        height: 32px;
+        border-radius: 5px;
      }
 
      .add_link {
@@ -385,3 +403,39 @@ width: 95%;
          padding-top: 15px;
      }
     
+
+
+
+
+     /* Add styles for the modal container */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure it's above other content */
+  }
+  
+  /* Add styles for the modal content */
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Add styles for the close button */
+  .modal-content button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
