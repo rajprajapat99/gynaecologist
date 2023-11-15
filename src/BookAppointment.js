@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css'
 import './App.css'
-// import ReCAPTCHA from 'react-google-recaptcha';
 import AppointForm from './AppointForm'
 const BookAppointment = () => {
 
