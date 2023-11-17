@@ -26,11 +26,11 @@ export default function Headbar() {
             </div>
             <Navbar expand="lg" className="bg-body-tertiary" style={{ position: 'sticky', top: '0', zIndex: '100' }}>
       <Container>
-        <Navbar.Brand href="#home"><h1 className='dr_name'>Dr. Sunita Choudhary</h1></Navbar.Brand>
+        <Navbar.Brand href="/"><h1 className='dr_name'>Dr. Sunita Choudhary</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav_item">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#about-us">About us</Nav.Link>
             <Nav.Link href="#our-services">Our Services</Nav.Link>
             <Nav.Link href="#book-appointment">Contact Us</Nav.Link>

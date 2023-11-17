@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import AppointForm from './AppointForm'
+import sunit from './Image/dr sunita choudhary1.jpeg'
 import {
   MDBCarousel,
   MDBCarouselItem,
@@ -36,38 +38,18 @@ function About() {
           <p className='wel_para'>She is also a member of Federation of Obstetric and Gynaecological Societies of India (FOGSI).She is trained in Gynae Laparoscopy by Dr Kurien Joseph in Chennai.</p>
           <p className='wel_para'>Her keen interest in advanced Laparoscopic and hysteroscopic surgeries and high risk pregnancy.</p>
           <p className='wel_para'>So if you’re facing any gynae related issues, you can visit Dr. Sunita Best Gynecologist, Pregnancy and Obstetrician specialist in Jaipur, at Blossom Wellness Clinic, Vaishali Nagar Jaipur.</p>
-          <p className='wel_para'>She provides best counselling and care to her patients. She provides best care and provides beSt treatment to mother and child.</p>
+          <p className='wel_para'>She provides best counselling and care to her patients. She provides best care and provides best treatment to mother and child.</p>
         </div>
       </div>
-      <div className='container-fluid bg_gradient py-5'>
-        <div className='row'>
-          <div className='col-lg-4 col-sm-6 col-12'>
-            <div className=' card_all'>
-              <div className='card'>
-                <div className='top_icon'><i className="cart_top_icon bi bi-suit-heart-fill"></i></div>
-                <h2 className='h_text'>15+</h2>
-                <div className='speciality'>Year Of Experience</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-lg-4 col-sm-6 col-12'>
-            <div className='card_all'>
-              <div className='card'>
-                <div className='top_icon'><i className="cart_top_icon bi bi-person-fill"></i></div>
-                <h2 className='h_text'>10000+</h2>
-                <div className='speciality'>Satisfied Patient</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-lg-4 col-sm-6 col-12'>
-            <div className='card_all'>
-              <div className='card'>
-                <div className='top_icon'><i className="cart_top_icon bi bi-plus-square-fill"></i></div>
-                <h2 className='h_text'>10000+</h2>
-                <div className='speciality'>Successfully Treated</div>
-              </div>
-            </div>
-          </div>
+      <div className='container-fluid py-5'>
+        <div className='row appoint_form mx-3'>
+<div className='col-md-6 align_right'>
+<img className='appoint_form_img' src={sunit} alt='Doctor picture' />
+</div>
+<div className='col-md-6 align_left'>
+<AppointForm />
+</div>
+          
         </div>
       </div>
     </>

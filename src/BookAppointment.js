@@ -21,7 +21,7 @@ const BookAppointment = () => {
           </div>
         </div>
         <div className='row apt_book'>
-          <h2 className='apt_book_text'><a className='click_mob_call' href="tel:+919414000665"> <span><i class="bi bi-telephone-fill"></i></span><span className='telephone'> +91-9928070006 </span> </a> </h2>
+          <h2 className='apt_book_text'><a className='click_mob_call' href="tel:+919414000665"> <span><i className="bi bi-telephone-fill"></i></span><span className='telephone'> +91-9928070006 </span> </a> </h2>
         </div>
 
       </div>

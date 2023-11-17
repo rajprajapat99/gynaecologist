@@ -30,7 +30,7 @@ function OurServices() {
       
       const PrevArrow = ({ onClick }) => (
         <button className="custom-arrow prev-arrow" onClick={onClick}>
-          <i class="bi bi-chevron-left"></i>
+          <i className="bi bi-chevron-left"></i>
         </button>
       );
 
@@ -170,16 +170,6 @@ function OurServices() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className='col-lg-3 col-md-4 col-sm-6 mb-4'>
-                            <div className='card card_center'>
-                                <div className='s_c_img py-3'>
-                                    <img className='ser_ca_img' src={GYNECOLOGIST} alt='GYNECOLOGIST' />
-                                </div>
-                                <div className='card_text'>
-                                    <h6 className='card_text_b py-3'>GYNECOLOGIST</h6>
-                                </div>
-                            </div>
-                        </div> */}
                         <div className='col-lg-3 col-md-4 col-sm-6 mb-4'>
                             <div className='card card_center'>
                                 <div className='s_c_img py-3'>
@@ -233,7 +223,7 @@ function OurServices() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid our_association py-5'>
+            <div className='container-fluid our_association'>
                 <div className='row'>
                     <a href='https://www.google.com/maps/place/Dr+Sunita+Choudhary-High+risk+pregnancyl+Laparoscopic+Surgeries%7C+Infertilityl+Best+Gynecologist+Blossom+clinic+Vaishali+Nagar/@26.912375,75.731094,17z/data=!3m1!4b1!4m6!3m5!1s0x396db4ed8d189aef:0x415c0b9f7e4ceb56!8m2!3d26.912375!4d75.731094!16s%2Fg%2F11hcytyybc?entry=ttu' className=' associ_all_blossom'><img src={blossom} alt='blossom' className='blossom_png' /></a>
 
@@ -241,17 +231,17 @@ function OurServices() {
                 </div>
 
             </div>
-            <div className='container-fluid pt-5'>
+            <div className='container-fluid'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-3 col-12 card pt-5 review_card'>
                             <img className='google_card' src={Google} alt='Google' />
                             <div className='card_star'>
-                                <span><i class="card_star bi bi-star-fill"></i></span>
-                                <span><i class="card_star bi bi-star-fill"></i></span>
-                                <span><i class="card_star bi bi-star-fill"></i></span>
-                                <span><i class="card_star bi bi-star-fill"></i></span>
-                                <span><i class="card_star bi bi-star-fill"></i></span>
+                                <span><i className="card_star bi bi-star-fill"></i></span>
+                                <span><i className="card_star bi bi-star-fill"></i></span>
+                                <span><i className="card_star bi bi-star-fill"></i></span>
+                                <span><i className="card_star bi bi-star-fill"></i></span>
+                                <span><i className="card_star bi bi-star-fill"></i></span>
                             </div>
                             <h3 className='excel'>EXCELLENT</h3>
                             <h6 className='review_text'>Based on google reviews</h6>
@@ -334,9 +324,9 @@ function OurServices() {
                                 </Slider>
                             </div>
                         </div>
-                        <div class="row reviewbtn mt-5">
-                            <button target="_blank" onClick={openGoogleMaps} class="submit-btn mb-2"> See on Google</button>
-                            <button target="_blank" onClick={openGoogleReview} class="submit-btn mb-2"> Write a Review</button>
+                        <div className="row reviewbtn mt-5">
+                            <button target="_blank" onClick={openGoogleMaps} className="submit-btn mb-2"> See on Google</button>
+                            <button target="_blank" onClick={openGoogleReview} className="submit-btn mb-2"> Write a Review</button>
                         </div>
                     </div>
                 </div>

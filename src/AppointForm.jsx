@@ -28,7 +28,7 @@ function AppointForm() {
   const formik = useFormik({
     initialValues,
     validationSchema,
-    onSubmit: async (values) => {
+    onSubmit: async (values, { resetForm }) => {
       try {
         const response = await fetch('http://localhost:5555/send_email', {
           method: 'POST',
@@ -42,13 +42,16 @@ function AppointForm() {
           const data = await response.json();
           console.log('API response data', data);
           setShow(true);
+          
         } else {
           console.error('Failed to submit the form');
           const errorData = await response.json();
           console.log('API error data', errorData);
+          setShow(true);
         }
       } catch (error) {
         console.error('Error during API call', error);
+        setShow(true);
       }
     },
   });
