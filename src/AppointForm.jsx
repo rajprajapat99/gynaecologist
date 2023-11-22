@@ -42,16 +42,15 @@ function AppointForm() {
           const data = await response.json();
           console.log('API response data', data);
           setShow(true);
+          resetForm();
           
         } else {
           console.error('Failed to submit the form');
           const errorData = await response.json();
           console.log('API error data', errorData);
-          setShow(true);
         }
       } catch (error) {
         console.error('Error during API call', error);
-        setShow(true);
       }
     },
   });
