@@ -5,6 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Logo from './Image/Dr.sunita logo.png'
 
 
 export default function Headbar() {
@@ -25,20 +26,20 @@ export default function Headbar() {
                 </div>
             </div>
             <Navbar expand="lg" className="bg-body-tertiary" style={{ position: 'sticky', top: '0', zIndex: '100' }}>
-      <Container>
-        <Navbar.Brand href="/"><h1 className='dr_name'>Dr. Sunita Choudhary</h1></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav_item">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#about-us">About us</Nav.Link>
-            <Nav.Link href="#our-services">Our Services</Nav.Link>
-            <Nav.Link href="#book-appointment">Contact Us</Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+                <Container>
+                    <Navbar.Brand href="/"><img className='logo_img' src={Logo} alt='logo_img' /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="nav_item">
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="#about-us">About us</Nav.Link>
+                            <Nav.Link href="#our-services">Our Services</Nav.Link>
+                            <Nav.Link href="#book-appointment">Contact Us</Nav.Link>
+
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
 
 
         </>
