@@ -45,25 +45,25 @@ function OurServices() {
 
         responsive: [
             {
-                breakpoint: 1024, // For screens larger than 1024px wide
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 768, // For screens between 768px and 1023px wide
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 480, // For screens less than 768px wide
+                breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    arrows: false, // Hide arrows at this breakpoint
+                    arrows: false,
                 },
             },
         ],

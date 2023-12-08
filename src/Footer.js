@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import fb from './Image/fb icon.png'
-import insta from './Image/insta-icon.png'
+import insta from './Image/insta-icon.jpg'
 const Footer = () => {
   return (
     <>
@@ -15,6 +15,7 @@ const Footer = () => {
                         <ul className='add'>
                             <li className='detail'>10 A, Gate no 4, Shiv Path, Nemi Nagar Ext., Amrapali Marg, Near SDC Aishwarya Heights Building, Vaishali Nagar, Jaipur, Rajasthan 302021</li>
                             <li className='detail'><h6>+91-9928070006</h6></li>
+                            <li className='detail'><h6>Email Id:- choudharydrsunita@gmail.com</h6></li>
                             
                         <h5 className='foot_head mt-3'>TIMING</h5>
                             <li className='detail'>9:00 a.m - 10:00 a.m</li>

@@ -10,7 +10,6 @@
 
      /* Headbar   css */
 
-
      .bg_blue {
          background-color: #755b9b;
      }
@@ -49,12 +48,11 @@
      .nav_item:hover {
          color: #755b9b;
      }
-     .logo_img{
-        height: 50px;
-        width: 100%;
+
+     .logo_img {
+         height: 50px;
+         width: 100%;
      }
-
-
 
      @media screen and (max-width: 768px) {
          .headbar_link {
@@ -70,12 +68,9 @@
          .appoint_form_img {
              border-radius: 10px 10px 10px 10px !important;
          }
-
      }
 
-
      /* BookAppointment css */
-
 
      .set_bgc {
          background-color: #755b9b;
@@ -143,7 +138,6 @@
          width: 90%;
      }
 
-
      .modal-content {
          margin-top: 40%;
      }
@@ -159,16 +153,12 @@
      }
 
      @media screen and (max-width: 768px) {
-
          .carousel_imag {
              height: 40vh !important;
          }
      }
 
-
      /* About CSS */
-
-
 
      .carousel_imag {
          height: 80vh;
@@ -176,7 +166,6 @@
 
      .carousel_cont {
          padding: 0px !important;
-
      }
 
      .card_all {
@@ -216,7 +205,6 @@
          height: 80%;
          width: 80%;
          border-radius: 20px;
-
      }
 
      .appointment_section {
@@ -290,7 +278,6 @@
 
      .bg_gradient {
          background: linear-gradient(to bottom, #755b9b, #8a71b1);
-
      }
 
      .top_icon {
@@ -316,7 +303,6 @@
          text-align: center;
          margin-top: 30px;
          margin-bottom: 30px;
-
      }
 
      .wel_para {
@@ -350,19 +336,13 @@
          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
          padding: 20px 20px 20px 10px;
          border-radius: 20px;
-
      }
 
      .align_right {
          padding: 0px;
-
      }
 
-
-
      /* Footer css   */
-
-
 
      .foot_bgc {
          background-color: #333333;
@@ -415,8 +395,6 @@
          text-decoration: underline;
      }
 
-
-
      .social_media {
          display: flex;
          padding-left: 10px;
@@ -430,7 +408,6 @@
 
      .footer_social_icon {
          height: 35px;
-
      }
 
      .footer_social_icon_fb {
@@ -447,11 +424,6 @@
          padding-top: 15px;
      }
 
-
-
-
-
-     /* Add styles for the modal container */
      .modal {
          position: fixed;
          top: 0;
@@ -463,10 +435,8 @@
          justify-content: center;
          align-items: center;
          z-index: 999;
-         /* Ensure it's above other content */
      }
 
-     /* Add styles for the modal content */
      .modal-content {
          background: #fff;
          padding: 20px;
@@ -474,7 +444,6 @@
          text-align: center;
      }
 
-     /* Add styles for the close button */
      .modal-content button {
          background: #007BFF;
          color: #fff;

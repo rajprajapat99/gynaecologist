@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import AppointForm from './AppointForm'
-import sunit from './Image/dr sunita choudhary1.jpeg'
+import sunit from './Image/dr sunita.png'
 import {
   MDBCarousel,
   MDBCarouselItem,
@@ -9,7 +9,7 @@ import {
 import carousel1 from './Image/carousel1.jpg';
 import carousel2 from './Image/carousel2.jpg';
 function About() {
-  
+
 
   return (
     <>
@@ -27,9 +27,9 @@ function About() {
             src={carousel2}
             alt='...'
           />
-          
+
         </MDBCarousel>
-      </div>  
+      </div>
       <div className='container-fluid' id='about-us'>
         <div className='container welcome_section'>
           <h2 className='welcome_blue'>WELCOME TO Dr. SUNITA CHOUDHARY</h2>
@@ -44,13 +44,13 @@ function About() {
       </div>
       <div className='container-fluid py-5'>
         <div className='row appoint_form mx-3'>
-<div className='col-md-6 align_right'>
-<img className='appoint_form_img' src={sunit} alt='Doctor picture' />
-</div>
-<div className='col-md-6 align_left'>
-<AppointForm />
-</div>
-          
+          <div className='col-md-6 align_right'>
+            <img className='appoint_form_img' src={sunit} alt='Doctor picture' />
+          </div>
+          <div className='col-md-6 align_left'>
+            <AppointForm />
+          </div>
+
         </div>
       </div>
     </>
