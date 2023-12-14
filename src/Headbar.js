@@ -18,10 +18,10 @@ export default function Headbar() {
                         <span className='icon'></span> <p className='text'>Best Gynecologist in Jaipur</p>
                     </div>
                     <div className='col-md-4 col-12 headbar_link content_end'>
-                        <span className='icon'> <i class="bi bi-calendar"></i> </span> <a href='#book-appointment' className='head_link'>Book Appointment</a>
+                        <span className='icon'> <i className="bi bi-calendar"></i> </span> <a href='#book-appointment' className='head_link'>Book Appointment</a>
                     </div>
                     <div className='col-md-4 col-12 headbar_link content_end'>
-                        <span className='icon'><i class="bi bi-telephone-fill"></i></span> <a href="tel:+919414000665" className='head_link'>+91-9928070006</a>
+                        <span className='icon'><i className="bi bi-telephone-fill"></i></span> <a href="tel:+919414000665" className='head_link'>+91-9928070006</a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import "../node_modules/slick-carousel/slick/slick.css";
 import "../node_modules/slick-carousel/slick/slick.css";
 import Slider from "react-slick";
@@ -94,6 +95,21 @@ function OurServices() {
 
     return (
         <>
+        <Helmet>
+        <link rel="preload" href={OBSTETRICIAN} as="image" />
+        <link rel="preload" href={HIGHRISKPREGNANCY} as="image" />
+        <link rel="preload" href={COMPLEXDELIVERY} as="image" />
+        <link rel="preload" href={HYSTEROSCOPICSURGERIES} as="image" />
+        <link rel="preload" href={CANCERSCREENING} as="image" />
+        <link rel="preload" href={PCOS} as="image" />
+        <link rel="preload" href={GYNECOLOGIST} as="image" />
+        <link rel="preload" href={LAPAROSCOPIC} as="image" />
+        <link rel="preload" href={FIBROIDS} as="image" />
+        <link rel="preload" href={OVARIAN} as="image" />
+        <link rel="preload" href={INFERTILITY} as="image" />
+        <link rel="preload" href={blossom} as="image" />
+        <link rel="preload" href={familyplaning} as="image" />
+      </Helmet>
             <div className='container-fluid service_section mt-5' id='our-services'>
                 <div className='container'>
                     <div className='row head_row'>

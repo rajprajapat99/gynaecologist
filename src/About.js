@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import AppointForm from './AppointForm'
 import sunit from './Image/dr sunita.png'
@@ -13,6 +14,11 @@ function About() {
 
   return (
     <>
+    <Helmet>
+        <link rel="preload" href={carousel1} as="image" />
+        <link rel="preload" href={carousel2} as="image" />
+        <link rel="preload" href={sunit} as="image" />
+      </Helmet>
       <div className='container-fluid carousel_cont'>
         <MDBCarousel showControls>
           <MDBCarouselItem
