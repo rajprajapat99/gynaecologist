@@ -408,6 +408,7 @@
 
      .footer_social_icon {
          height: 35px;
+         border-radius: 8px;
      }
 
      .footer_social_icon_fb {

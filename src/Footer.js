@@ -14,8 +14,8 @@ const Footer = () => {
                         <h5 className='clinic_name'>Blossom Women Wellness Clinic</h5>
                         <ul className='add'>
                             <li className='detail'>10 A, Gate no 4, Shiv Path, Nemi Nagar Ext., Amrapali Marg, Near SDC Aishwarya Heights Building, Vaishali Nagar, Jaipur, Rajasthan 302021</li>
-                            <li className='detail'><h6>+91-9928070006</h6></li>
-                            <li className='detail'><h6>Email Id:- choudharydrsunita@gmail.com</h6></li>
+                            <li className='detail'><h6><i className="bi bi-telephone-fill"></i> +91-9928070006</h6></li>
+                            <li className='detail'><h6><i className="bi bi-envelope-at-fill"></i> choudharydrsunita@gmail.com</h6></li>
                             
                         <h5 className='foot_head mt-3'>TIMING</h5>
                             <li className='detail'>9:00 a.m - 10:00 a.m</li>
@@ -41,7 +41,7 @@ const Footer = () => {
                         <h5 className='clinic_name'>Shalby Multi-Specialty Hospital :</h5>
                         <ul className='add'>
                             <li className='detail'>Under Pass, Delhi - Ajmer Expressway,200 Feet Bypass Rd,  Chitrakoot Sector 3, Vaishali Nagar, Jaipur, Rajasthan 302021</li>
-                            <li className='detail mob_two'><h6>+91-9928070006</h6></li>
+                            <li className='detail mob_two'><h6><i className="bi bi-telephone-fill"></i>  +91-9928070006</h6></li>
                         <h5 className='foot_head foot_head_t mt-3'>TIMING</h5>
                             <li className='detail'>10:00 a.m - 4:00 p.m</li>
                             
