@@ -3,28 +3,22 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-
 const validationSchema = Yup.object().shape({
   name: Yup.string().required('Name is required'),
   phoneNumber: Yup.string().required('Phone Number is required'),
   email: Yup.string().email('Invalid email').required('Email is required'),
   message: Yup.string(),
 });
-
 function AppointForm() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
-
   const initialValues = {
     name: '',
     phoneNumber: '',
     email: '',
     message: '',
   };
-
   const form = useRef();
-
   const formik = useFormik({
     initialValues,
     validationSchema,
@@ -36,14 +30,12 @@ function AppointForm() {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify(values),
-        });
-  
+        });  
         if (response.ok) {
           const data = await response.json();
           console.log('API response data', data);
           setShow(true);
-          resetForm();
-          
+          resetForm();          
         } else {
           console.error('Failed to submit the form');
           const errorData = await response.json();
@@ -54,8 +46,6 @@ function AppointForm() {
       }
     },
   });
-  
-
   return (
     <div>
       <form className="appointment_form" ref={form} onSubmit={formik.handleSubmit}>
@@ -68,7 +58,7 @@ function AppointForm() {
           <input
             className='input_area'
             type="text"
-            id="name"
+            // id="name"
             name="name"
             placeholder='Enter Name'
             value={formik.values.name}
@@ -81,7 +71,6 @@ function AppointForm() {
             <div className="error">{formik.errors.name}</div>
           )}
         </div>
-
         <div className="col-12">
           <label className="label_font" htmlFor="phoneNumber">
             Phone Number*
@@ -91,7 +80,7 @@ function AppointForm() {
           <input
             className='input_area'
             type="tel"
-            id="phoneNumber"
+            // id="phoneNumber"
             name="phoneNumber"
             placeholder='Enter Phone Number'
             value={formik.values.phoneNumber}
@@ -104,7 +93,6 @@ function AppointForm() {
             <div className="error">{formik.errors.phoneNumber}</div>
           )}
         </div>
-
         <div className="col-12">
           <label className="label_font" htmlFor="email">
             Email*
@@ -114,7 +102,7 @@ function AppointForm() {
           <input
             className='input_area'
             type="email"
-            id="email"
+            // id="email"
             name="email"
             placeholder='Enter Email'
             value={formik.values.email}
@@ -126,7 +114,6 @@ function AppointForm() {
             <div className="error">{formik.errors.email}</div>
           )}
         </div>
-
         <div className="col-12">
           <label className="label_font" htmlFor="message">
             Message:
@@ -135,7 +122,7 @@ function AppointForm() {
         <div className='col-12'>
           <textarea
             className='input_area input_msg'
-            id="message"
+            // id="message"
             name="message"
             placeholder='Message'
             value={formik.values.message}
@@ -143,14 +130,12 @@ function AppointForm() {
             onBlur={formik.handleBlur}
           />
         </div>
-
         <div className='col-12'>
           <button type="submit" className='submit_button submit_app_btn'>
             Submit
           </button>
         </div>
       </form>
-
       <div className='appoint_form_modal'>
         <Modal show={show} onHide={handleClose}>
           <Modal.Body>Thank you for submitting your appointment request!</Modal.Body>
@@ -164,5 +149,4 @@ function AppointForm() {
     </div>
   );
 }
-
 export default AppointForm;

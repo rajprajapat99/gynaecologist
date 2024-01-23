@@ -2,91 +2,68 @@
          padding: 0;
          margin: 0;
      }
-
      html {
          padding: 0;
          margin: 0;
      }
-
      /* Headbar   css */
-
      .bg_blue {
          background-color: #755b9b;
      }
-
      .head_link {
          color: #fff;
          text-decoration: none;
          padding-left: 10px;
      }
-
      .text {
          color: #fff;
      }
-
      .content_end {
          display: flex;
          justify-content: flex-end;
      }
-
      .icon {
          color: #fff;
      }
-
-     .dr_name {
-         color: #755b9b;
-         font-weight: 700;
-     }
-
      .nav_item {
          font-size: 18px;
          font-weight: 500;
          color: black;
          margin-left: auto;
      }
-
      .nav_item:hover {
          color: #755b9b;
      }
-
      .logo_img {
          height: 50px;
          width: 100%;
      }
-
      @media screen and (max-width: 768px) {
          .headbar_link {
              display: inline;
              text-align: center;
              margin-bottom: 5px;
          }
-
          .text {
              margin-bottom: 0px;
          }
-
          .appoint_form_img {
              border-radius: 10px 10px 10px 10px !important;
          }
      }
-
      /* BookAppointment css */
-
      .set_bgc {
          background-color: #755b9b;
      }
-
      .set_bgi {
          background-image: url(./Image/bg.jpg);
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
      }
-
      .apt_book {
          height: 5rem;
      }
-
      .bg_white {
          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
          background-color: #fff;
@@ -96,7 +73,6 @@
          opacity: .8;
          color: black;
      }
-
      .apt_book_text {
          color: #fff;
          font-size: 25px;
@@ -107,76 +83,46 @@
          justify-content: center;
          align-items: center;
      }
-
      .submit_app_btn {
          margin-left: 10px;
      }
-
      .telephone {
          padding-left: 20px;
      }
-
-     .check_border_app {
-         border: 1px solid #755b9b;
-         width: 70%;
-         height: 70px;
-         margin-left: 10px;
-         border-radius: 8px;
-         display: flex;
-     }
-
-     .recaptcha {
-         margin-left: 10px;
-     }
-
      .click_mob_call {
          color: #fff;
          text-decoration: none;
      }
-
      .book_app_row {
          width: 90%;
      }
-
      .modal-content {
          margin-top: 40%;
      }
-
      .form_modal_button {
          background-color: #755b9b !important;
          color: #fff;
      }
-
      .modal-footer {
          display: flex;
          justify-content: center !important;
      }
-
      @media screen and (max-width: 768px) {
          .carousel_imag {
              height: 40vh !important;
          }
      }
-
      /* About CSS */
-
      .carousel_imag {
          height: 80vh;
      }
-
      .carousel_cont {
          padding: 0px !important;
      }
-
-     .card_all {
-         margin: 20px;
-     }
-
      .block {
          display: block;
          padding-bottom: 20px;
      }
-
      .input_area {
          width: 90%;
          margin-left: 10px;
@@ -185,79 +131,21 @@
          height: 35px;
          padding-left: 10px;
      }
-
      .input_area:focus {
          outline: none;
      }
-
      .input_msg {
          height: 60px;
      }
-
      .label_font {
          font-size: 14px;
          line-height: 27px;
          margin-left: 10px;
          margin-top: 8px;
      }
-
-     .doctor_banner {
-         height: 80%;
-         width: 80%;
-         border-radius: 20px;
-     }
-
-     .appointment_section {
-         padding: 10px;
-         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-         margin-bottom: 50px;
-         width: 95%;
-         border-radius: 10px;
-         background-color: #fff;
-     }
-
-     .image_section {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-     }
-
-     .check_box {
-         height: 20px;
-         width: 20px;
-     }
-
-     .robot_text {
-         padding-left: 20px;
-     }
-
-     .check_border {
-         border: 1px solid #755b9b;
-         width: 70%;
-         height: 70px;
-         margin-left: 20px;
-         border-radius: 8px;
-         display: flex;
-     }
-
      .about_bold {
          font-weight: bold;
      }
-
-     .a_tag {
-         font-size: 8px;
-         text-decoration: none;
-         color: black;
-     }
-
-     .recaptcha {
-         margin-left: 10px;
-     }
-
-     .content_left {
-         margin-left: auto;
-     }
-
      .submit_button {
          width: 150px;
          padding: 10px 25px;
@@ -267,116 +155,62 @@
          border: none;
          margin-top: 20px;
      }
-
-     .card_all {
-         padding-left: 30px;
-         padding-right: 30px;
-         margin-bottom: 20px;
-         margin-top: 20px;
-         justify-content: space-around;
-     }
-
-     .bg_gradient {
-         background: linear-gradient(to bottom, #755b9b, #8a71b1);
-     }
-
-     .top_icon {
-         margin-top: 10px;
-         margin-bottom: 10px;
-     }
-
-     .speciality {
-         margin-bottom: 50px;
-     }
-
-     .cart_top_icon {
-         color: #755b9b;
-         font-size: x-large;
-     }
-
-     .card_all {
-         text-align: center;
-     }
-
      .welcome_blue {
          color: #755b9b;
          text-align: center;
          margin-top: 30px;
          margin-bottom: 30px;
      }
-
      .wel_para {
          font-size: 15px;
          color: #555555;
          line-height: 25px;
          word-spacing: 1.2px;
      }
-
-     .wel_subhead {
-         font-weight: 400;
-         margin-bottom: 20px;
-     }
-
      .welcome_section {
          margin-bottom: 50px;
      }
-
      .error {
          color: red;
          font-size: 12px;
      }
-
      .appoint_form_img {
          height: 400px;
          width: 100%;
          border-radius: 10px 0 0 10px;
      }
-
      .appoint_form {
          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
          padding: 20px 20px 20px 10px;
          border-radius: 20px;
      }
-
      .align_right {
          padding: 0px;
      }
-
      /* Footer css   */
-
      .foot_bgc {
          background-color: #333333;
          color: #fff;
      }
-
      .foot_head {
          font-weight: 400;
          margin-bottom: 20px;
      }
-
      .detail {
          list-style-type: none;
          font-size: 16px;
          margin-bottom: 15px;
      }
-
      .jus_cont_btw {
          justify-content: space-between;
      }
-
      .details {
          margin-bottom: 5px;
          list-style: none;
      }
-
-     .foot_icon {
-         margin-right: 10px;
-     }
-
      .add {
          padding-left: 0px;
      }
-
      .design_bgc {
          background-color: #755b9b;
          height: 60px;
@@ -384,47 +218,34 @@
          text-align: center;
          padding-top: 15px;
      }
-
      .our_link {
          color: #fff;
          text-decoration: none;
          font-size: 14px;
      }
-
      .our_link:hover {
          text-decoration: underline;
      }
-
      .social_media {
          display: flex;
          padding-left: 10px;
      }
-
      .sm_icon {
          list-style: none;
          margin-right: 20px;
          font-size: 20px;
      }
-
      .footer_social_icon {
          height: 35px;
          border-radius: 8px;
      }
-
      .footer_social_icon_fb {
          height: 32px;
          border-radius: 5px;
      }
-
-     .add_link {
-         text-decoration: none;
-         color: #fff;
-     }
-
      .mob_two {
          padding-top: 15px;
      }
-
      .modal {
          position: fixed;
          top: 0;
@@ -437,14 +258,12 @@
          align-items: center;
          z-index: 999;
      }
-
      .modal-content {
          background: #fff;
          padding: 20px;
          border-radius: 4px;
          text-align: center;
      }
-
      .modal-content button {
          background: #007BFF;
          color: #fff;

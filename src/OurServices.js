@@ -242,10 +242,7 @@ function OurServices() {
             <div className='container-fluid our_association'>
                 <div className='row'>
                     <a href='https://www.google.com/maps/place/Dr+Sunita+Choudhary-High+risk+pregnancyl+Laparoscopic+Surgeries%7C+Infertilityl+Best+Gynecologist+Blossom+clinic+Vaishali+Nagar/@26.912375,75.731094,17z/data=!3m1!4b1!4m6!3m5!1s0x396db4ed8d189aef:0x415c0b9f7e4ceb56!8m2!3d26.912375!4d75.731094!16s%2Fg%2F11hcytyybc?entry=ttu' className=' associ_all_blossom'><img src={blossom} alt='blossom' className='blossom_png' /></a>
-
-
                 </div>
-
             </div>
             <div className='container-fluid'>
                 <div className='container'>
