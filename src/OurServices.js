@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
 import "../node_modules/slick-carousel/slick/slick.css";
 import "../node_modules/slick-carousel/slick/slick.css";
 import Slider from "react-slick";
@@ -12,13 +11,13 @@ import HYSTEROSCOPICSURGERIES from './Image/HYSTEROSCOPIC SURGERIES.jpeg'
 import CANCERSCREENING from './Image/CANCER SCREENING.jpg'
 import PCOS from './Image/PCOS.jpeg'
 import GYNECOLOGIST from './Image/GYNECOLOGIST.jpeg'
-import LAPAROSCOPIC from './Image/LAPAROSCOPIC SURGEON.webp'
+import LAPAROSCOPIC from './Image/LAPAROSCOPIC SURGEON.jpg'
 import FIBROIDS from './Image/FIBROIDS.webp'
 import OVARIAN from './Image/OVARIAN CYST.jpg'
 import INFERTILITY from './Image/INFERTILITY.jpg'
 import blossom from './Image/blossom.png'
 import familyplaning from './Image/familyplaningg.jpg'
-
+import star from './Image/star-icon.webp'
 
 
 function OurServices() {
@@ -95,21 +94,6 @@ function OurServices() {
 
     return (
         <>
-        <Helmet>
-        <link rel="preload" href={OBSTETRICIAN} as="image" />
-        <link rel="preload" href={HIGHRISKPREGNANCY} as="image" />
-        <link rel="preload" href={COMPLEXDELIVERY} as="image" />
-        <link rel="preload" href={HYSTEROSCOPICSURGERIES} as="image" />
-        <link rel="preload" href={CANCERSCREENING} as="image" />
-        <link rel="preload" href={PCOS} as="image" />
-        <link rel="preload" href={GYNECOLOGIST} as="image" />
-        <link rel="preload" href={LAPAROSCOPIC} as="image" />
-        <link rel="preload" href={FIBROIDS} as="image" />
-        <link rel="preload" href={OVARIAN} as="image" />
-        <link rel="preload" href={INFERTILITY} as="image" />
-        <link rel="preload" href={blossom} as="image" />
-        <link rel="preload" href={familyplaning} as="image" />
-      </Helmet>
             <div className='container-fluid service_section mt-5' id='our-services'>
                 <div className='container'>
                     <div className='row head_row'>
@@ -250,11 +234,11 @@ function OurServices() {
                         <div className='col-lg-3 col-12 card pt-5 review_card'>
                             <img className='google_card' src={Google} alt='Google' />
                             <div className='card_star'>
-                                <span><i className="card_star bi bi-star-fill"></i></span>
-                                <span><i className="card_star bi bi-star-fill"></i></span>
-                                <span><i className="card_star bi bi-star-fill"></i></span>
-                                <span><i className="card_star bi bi-star-fill"></i></span>
-                                <span><i className="card_star bi bi-star-fill"></i></span>
+                                <span><img className='icon_image_star' src={star} alt='logo_img' /></span>
+                                <span><img className='icon_image_star' src={star} alt='logo_img' /></span>
+                                <span><img className='icon_image_star' src={star} alt='logo_img' /></span>
+                                <span><img className='icon_image_star' src={star} alt='logo_img' /></span>
+                                <span><img className='icon_image_star' src={star} alt='logo_img' /></span>
                             </div>
                             <h3 className='excel'>EXCELLENT</h3>
                             <h6 className='review_text'>Based on google reviews</h6>

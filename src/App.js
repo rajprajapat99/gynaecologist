@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import Headbar from "./Headbar";
 import About from './About';
-import OurServices from './OurServices';
-import BookAppointment from './BookAppointment';
-import Footer from './Footer';
 
 function App() {
+  const OurServices = React.lazy(() => import("./OurServices"));
+  const BookAppointment = React.lazy(() => import("./BookAppointment"))
+  const Footer = React.lazy(() => import("./Footer"))
   return (
     <div className="App">
       <Helmet>
@@ -17,9 +17,11 @@ function App() {
       </Helmet>
       <Headbar />
       <About />
-      <OurServices />
-      <BookAppointment />
-      <Footer />
+      <Suspense fallback={<p>This is loading</p>}>
+        <OurServices />
+        <BookAppointment />
+        <Footer />
+      </Suspense>
     </div>
   );
 }

@@ -1,27 +1,27 @@
 import React from 'react'
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from './Image/Dr.sunita logo.png'
+import tel from './Image/telephone1.png'
+import calandar from './Image/caladar1.png'
 
 
 export default function Headbar() {
     return (
         <>
-
             <div className='container-fluid bg_blue' id='home'>
                 <div className='row px-5 pt-2'>
                     <div className='col-md-4 col-12 headbar_link'>
                         <span className='icon'></span> <p className='text'>Best Gynecologist in Jaipur</p>
                     </div>
                     <div className='col-md-4 col-12 headbar_link content_end'>
-                        <span className='icon'> <i className="bi bi-calendar"></i> </span> <a href='#book-appointment' className='head_link'>Book Appointment</a>
+                        <span className='icon'> <img className='icon_image' src={calandar} alt='logo_img' /> </span> <a href='#book-appointment' className='head_link'>Book Appointment</a>
                     </div>
                     <div className='col-md-4 col-12 headbar_link content_end'>
-                        <span className='icon'><i className="bi bi-telephone-fill"></i></span> <a href="tel:+919414000665" className='head_link'>+91-9928070006</a>
+                        <span className='icon'><img className='icon_image' src={tel} alt='logo_img' /></span> <a href="tel:+919414000665" className='head_link'>+91-9928070006</a>
                     </div>
                 </div>
             </div>

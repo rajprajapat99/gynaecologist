@@ -15,6 +15,17 @@
          text-decoration: none;
          padding-left: 10px;
      }
+     .icon_image{        
+    filter: invert(1);    
+    height: 20px;
+    width: 20px;
+     }
+     .icon_image_star{      
+        filter: invert(0);    
+        height: 30px;
+        width: 30px;
+
+     }
      .text {
          color: #fff;
      }
@@ -56,7 +67,7 @@
          background-color: #755b9b;
      }
      .set_bgi {
-         background-image: url(./Image/bg.jpg);
+         background-image: url(./Image/bg.webp);
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -86,9 +97,9 @@
      .submit_app_btn {
          margin-left: 10px;
      }
-     .telephone {
+     /* .telephone {
          padding-left: 20px;
-     }
+     } */
      .click_mob_call {
          color: #fff;
          text-decoration: none;
