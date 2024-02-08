@@ -40,6 +40,7 @@ const Footer = () => {
                                     <li className='details'><a href='#about-us' className='our_link'>About Us</a></li>
                                     <li className='details'><a href='#our-services' className='our_link'>Our Services</a></li>
                                     <li className='details'><a href='#book-appointment' className='our_link'>Contact Us</a></li>
+                                    <li className='details'><a href='https://www.termsfeed.com/live/16b6e64f-bec8-4aca-aeba-55b8faa2bd37' target='blank' className='our_link'>Privacy & Policy</a></li>
                                 </ul>
                                 <h5 className='clinic_name'>Shalby Multi-Specialty Hospital :</h5>
                                 <ul className='add'>
