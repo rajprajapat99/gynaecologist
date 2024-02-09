@@ -283,3 +283,6 @@
          cursor: pointer;
          border-radius: 4px;
      }
+     .privacy_span{
+        font-weight: 700;
+     }

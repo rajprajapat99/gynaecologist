@@ -4,6 +4,7 @@ import fb from './Image/fb icon.png'
 import insta from './Image/insta-icon.jpg'
 import tel from './Image/telephone1.png'
 import mail from './Image/mail.png'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
@@ -40,7 +41,7 @@ const Footer = () => {
                                     <li className='details'><a href='#about-us' className='our_link'>About Us</a></li>
                                     <li className='details'><a href='#our-services' className='our_link'>Our Services</a></li>
                                     <li className='details'><a href='#book-appointment' className='our_link'>Contact Us</a></li>
-                                    <li className='details'><a href='https://www.termsfeed.com/live/16b6e64f-bec8-4aca-aeba-55b8faa2bd37' target='blank' className='our_link'>Privacy & Policy</a></li>
+                                    <li className='details'><Link to={'/privacy'} className='our_link'>Privacy & Policy</Link></li>
                                 </ul>
                                 <h5 className='clinic_name'>Shalby Multi-Specialty Hospital :</h5>
                                 <ul className='add'>
