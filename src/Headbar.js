@@ -2,6 +2,7 @@ import React from 'react'
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from './Image/Dr.sunita logo.png'
@@ -10,6 +11,24 @@ import calandar from './Image/caladar1.png'
 
 
 export default function Headbar() {
+    const scrollToAbout = () => {
+        const registerElement = document.getElementById('about-us');
+        if (registerElement) {
+            registerElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    const scrollToServices = () => {
+        const registerElement = document.getElementById('our-services');
+        if (registerElement) {
+            registerElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    const scrollToAppointment = () => {
+        const registerElement = document.getElementById('book-appointment');
+        if (registerElement) {
+            registerElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <>
             <div className='container-fluid bg_blue' id='home'>
@@ -31,10 +50,10 @@ export default function Headbar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="nav_item">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="#about-us">About us</Nav.Link>
-                            <Nav.Link href="#our-services">Our Services</Nav.Link>
-                            <Nav.Link href="#book-appointment">Contact Us</Nav.Link>
+                            <Link to={'/'} className="nav-link" onClick={() => window.scrollTo(0, 0)}>Home</Link>
+                            <Nav.Link onClick={scrollToAbout} >About us</Nav.Link>
+                            <Nav.Link onClick={scrollToServices} >Our Services</Nav.Link>
+                            <Nav.Link  onClick={scrollToAppointment} >Contact Us</Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>
