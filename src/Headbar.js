@@ -1,11 +1,10 @@
 import React from 'react'
 import "./App.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from './Image/Dr.sunita logo.png'
+import Logo from './Image/Dr.sunita logo (1).png'
 import tel from './Image/telephone1.png'
 import calandar from './Image/caladar1.png'
 

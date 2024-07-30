@@ -79,7 +79,7 @@ const Footer = () => {
 
                 </div>
                 <div className='row design_bgc'>
-                    <p className='design_text'>Designed & Developed By Prilient Technologies Pvt. Ltd.</p>
+                    <p className='design_text'>Designed & Developed By <Link to='https://prilient.com/' target='blank' className='copy_web'>Prilient Technologies Pvt. Ltd.</Link></p>
                 </div>
             </div>
 

@@ -1,9 +1,7 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
-import './App.css';
 import Headbar from "./Headbar";
 import About from './About';
-
 
 const OurServices = React.lazy(() => import("./OurServices"));
 const BookAppointment = React.lazy(() => import("./BookAppointment"));

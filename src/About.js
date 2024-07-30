@@ -13,21 +13,22 @@ function About() {
 
   return (
     <>
-      <div className='container-fluid carousel_cont'>
+      <div className='carousel_cont'>
         <MDBCarousel showControls>
           <MDBCarouselItem
             className='w-100 d-block carousel_imag'
             itemId={1}
             src={carousel1}
             alt='...'
+            loading='eager'
           />
           <MDBCarouselItem
             className='w-100 d-block carousel_imag'
             itemId={2}
             src={carousel2}
             alt='...'
+            loading='eager'
           />
-
         </MDBCarousel>
       </div>
       <div className='container-fluid' id='about-us'>
