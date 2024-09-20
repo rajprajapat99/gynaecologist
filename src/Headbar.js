@@ -39,7 +39,7 @@ export default function Headbar() {
                         <span className='icon'> <img className='icon_image' src={calandar} alt='logo_img' /> </span> <a href='#book-appointment' className='head_link'>Book Appointment</a>
                     </div>
                     <div className='col-md-4 col-12 headbar_link content_end'>
-                        <span className='icon'><img className='icon_image' src={tel} alt='logo_img' /></span> <a href="tel:+919414000665" className='head_link'>+91-9928070006</a>
+                        <span className='icon'><img className='icon_image' src={tel} alt='logo_img' /></span> <a href="tel:+91-9414000665" className='head_link'>+91-9928070006</a>
                     </div>
                 </div>
             </div>
